@@ -50,7 +50,7 @@ class Landing extends Component {
                                 </CardText>
                                 <CardActions border>
                                     <p><b>Open CV, Python</b></p>
-                                    <b><a href="https://github.com/deepthinarkuti/Quick-Share">Git hub</a></b>
+                                    <b><a href="https://github.com/deepthinarkuti/Virtual-Keyboard-Handling-using-Hand-Gesture-Recognition">Git hub</a></b>
                                 </CardActions>
                             </Card>
                             {/* Project 3 */}
@@ -63,7 +63,7 @@ class Landing extends Component {
                                 </CardText>
                                 <CardActions border>
                                     <p><b>Java, Bootstrap, Cloud</b></p>
-                                    <b><a href="https://github.com/deepthinarkuti/Quick-Share">Git hub</a></b>
+                                    <b><a href="https://github.com/deepthinarkuti/Easy-parking">Git hub</a></b>
                                 </CardActions>
                             </Card>
 
@@ -77,7 +77,7 @@ class Landing extends Component {
                                 </CardText>
                                 <CardActions border>
                                     <p><b>Java, SQL</b></p>
-                                    <b><a href="https://github.com/deepthinarkuti/Quick-Share">Git hub</a></b>
+                                    <b><a href="https://github.com/deepthinarkuti/Smart-Bug-Detector">Git hub</a></b>
                                 </CardActions>
                             </Card>
                         </div>
