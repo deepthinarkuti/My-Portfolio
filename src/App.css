@@ -17,7 +17,7 @@
 
 
 .landing-grid h3 {
-     text-align: center;
+    text-align: center;
     font-size: 30px;
     color: black;
 }
@@ -41,6 +41,7 @@
     margin-right: auto;
     background-size: cover;
     display: block;
+    align-content:center;
     border-radius: 100px;
     margin-bottom: 20px;
 }
@@ -64,6 +65,7 @@
 .social-links i {
   color: black;
   font-size: 5em;
+  display: flex;
   padding: 8px;
 }
 
@@ -83,7 +85,11 @@
     width: 150px;
     padding-top: 30px;
     padding-bottom: 20px;
-    padding-left: 44%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    display: block;
+    align-content:center;
 }
 
 .job-title p {
@@ -105,7 +111,6 @@
 .job-title li {
     display: inline-block;
     text-align: left;
-    color: black;
     font-size: 40px;
 }
 
