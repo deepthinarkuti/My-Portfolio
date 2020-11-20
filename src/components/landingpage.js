@@ -14,6 +14,8 @@ class Landing extends Component {
         return(
             <div>
                 <Grid className="landing-grid">
+                    <br />
+                    <br/>
                     <Cell col={12}>
                         <div style={{ width: '20%', margin: 'auto' }}>
                         <img className="image"
