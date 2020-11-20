@@ -5,16 +5,18 @@ class WorkExperience extends Component {
     render() {
         return (
             <div className="experience-tab">
-            <h4><b>Work Experience</b></h4>
-            <div className="experience-grid">
+            <br/><br/>
+                <div className="experience-grid">
                 <img className="company"
                     src={jpmorgan}
                     alt="company"
                 />
             </div>
             <div className="job-title">
-                <p>Software Engineer, JP Morgan Chase<br />July 2016 to June 2019</p>
+                    <h5><b>Software Engineer, JP Morgan Chase </b></h5><h6>(July 2016 to June 2019)</h6>
+                    <br/>
             </div>
+
             <div>
                 <ul style={{ width: '90%', margin: 'auto' }}>
                     <li>Developed highly scalable end to end application to process 70,000 real time transactions per sec, when the main frame servers are down using Java, Kafka and NoSQL Cassandra database.</li>
@@ -29,6 +31,8 @@ class WorkExperience extends Component {
                     <li>Mentored three interns at JP Morgan Chase for completing the internship on Banking app for visually challenged</li>
                 </ul>
                 </div>
+                <br/>
+                <br/>
             </div>
         )
     }

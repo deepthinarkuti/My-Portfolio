@@ -15,14 +15,14 @@ class Landing extends Component {
             <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <div style={{ width: '30%', margin: 'auto' }}>
+                        <div style={{ width: '20%', margin: 'auto' }}>
                         <img className="image"
                             src={picture}
                             alt="deepthi"
                         />
                         </div>
                         <div className="banner-text" style={{ width: '50%', margin: 'auto' }}>
-                            <h3>Hello! I am Deepthi </h3><p>I'm a Computer Science Graduate Student at University of Florida<br/>I love coding!<br/>I like working on various tech stack</p>
+                            <h3>Hello! <br />I am Deepthi </h3><p>I'm a Computer Science Graduate Student at University of Florida<br />I love coding!<br/> My preferred programming language is Java</p>
                         </div>
                         <hr />
                         <h4><b>Projects</b></h4>
@@ -30,7 +30,7 @@ class Landing extends Component {
                             {/* Project 1 */}
                             <Card shadow={5} style={{ width: '23%', margin: 'auto' }} className="cards">
                                 <CardTitle style={{
-                                    color: '#fff', height: '250px', backgroundImage: `url(${quickshare})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
+                                    color: '#fff', height: '200px', backgroundImage: `url(${quickshare})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
                                 }} ></CardTitle>
                                 <CardText><b>
                                     QUICK-SHARE App enables user to copy the text, files, images on a device and shares across multiple devices of the user asynchronously</b>
@@ -43,7 +43,7 @@ class Landing extends Component {
                             {/* Project 2 */}
                             <Card shadow={5} style={{ width: '23%', margin: 'auto' }}>
                                 <CardTitle style={{
-                                    color: '#fff', height: '250px', backgroundImage: `url(${gesturerecognition})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
+                                    color: '#fff', height: '200px', backgroundImage: `url(${gesturerecognition})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
                                 }} ></CardTitle>
                                 <CardText><b>
                                     GESTURE-RECOGNITION captures the gestures of the user which are mapped to the keyboard shortcuts inorder to perform keyboard operations virtually</b>
@@ -56,7 +56,7 @@ class Landing extends Component {
                             {/* Project 3 */}
                             <Card shadow={5} style={{ width: '23%', margin: 'auto' }}>
                                 <CardTitle style={{
-                                    color: '#fff', height: '260px', backgroundImage: `url(${carparking})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
+                                    color: '#fff', height: '210px', backgroundImage: `url(${carparking})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
                                 }} ></CardTitle>
                                 <CardText><b>
                                     EASY-PARKING helps in searching and booking a slot, to park a car quickly & easily in a parking lot with multiple levels</b>
@@ -70,7 +70,7 @@ class Landing extends Component {
                             {/* Project 4 */}
                             <Card shadow={5} style={{ width: '23%', margin: 'auto' }}>
                                 <CardTitle style={{
-                                    color: '#fff', height: '250px', backgroundImage: `url(${download})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
+                                    color: '#fff', height: '200px', backgroundImage: `url(${download})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
                                 }} ></CardTitle>
                                 <CardText><b>
                                     SMART-BUG-DETECTOR suggests top 5 solutions to the defects to resolve the defects quickly and efficiently based on the content and words match logic</b>
@@ -90,7 +90,8 @@ class Landing extends Component {
                             />
                         </div>
                         <div className="job-title">
-                            <p>Software Engineer, JP Morgan Chase<br/>July 2016 to June 2019</p>
+                            <h5><b>Software Engineer, JP Morgan Chase </b></h5>
+                            <h6>(July 2016 to June 2019)</h6>
                         </div>
                         <div>
                             <ul style={{ width: '90%', margin: 'auto' }}>
@@ -105,6 +106,7 @@ class Landing extends Component {
                                 <li>Delivered Big Data & Cloud Computing sessions to under graduates at Osmania University - University Outreach Program, 2016 - 2019</li>
                                 <li>Mentored three interns at JP Morgan Chase for completing the internship on Banking app for visually challenged</li>
                             </ul>
+                            <br/>
                         </div>
                         <hr />
                         <h4><b>Connect with me</b></h4>
@@ -124,7 +126,7 @@ class Landing extends Component {
                             <a href="https://github.com/deepthinarkuti" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square" aria-hidden="true" />
                             </a>
-
+                            <br/>
                         </div>
                     </Cell>
                 </Grid>
